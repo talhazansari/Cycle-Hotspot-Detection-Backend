@@ -48,7 +48,7 @@ public class DataService {
             System.out.println("✅ Loaded accidents: " + accidents.size());
 
         } catch (Exception e) {
-            System.err.println("❌ Failed to load accidents CSV");
+            System.err.println("Failed to load accidents CSV");
             e.printStackTrace();
         }
     }
@@ -74,7 +74,7 @@ public class DataService {
             System.out.println("✅ Loaded hotspots: " + hotspots.size());
 
         } catch (Exception e) {
-            System.err.println("❌ Failed to load hotspots CSV");
+            System.err.println("Failed to load hotspots CSV");
             e.printStackTrace();
         }
     }
